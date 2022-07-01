@@ -8,7 +8,6 @@ test("Returns about-us for spanish language", () => {
     expect(getAboutUsLink(process.env.GLOAR_VARIABLE)).toBe("/acerca-de");
 });
 
-
 // test.todo('Skip a test');
 test.skip("Skip a test", () => {
     (getAboutUsLink("es-ES")).toBe("/acerca-de");
@@ -49,3 +48,5 @@ test('new added', () => {
     const result = 11 % 2;
     expect(result).toBe(1);
 });
+
+
