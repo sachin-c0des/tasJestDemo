@@ -31,7 +31,7 @@ test("Account added by arjun-rathi", () => {
 });
 
 test("nmew test", () => {
-    expect(getAboutUsLink("es-ES")).toBe("/acerca-d");
+    expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
 
 test("Added by arjun", () => {
