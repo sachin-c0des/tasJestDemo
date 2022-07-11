@@ -40,12 +40,12 @@ test("Added by arjun", () => {
 
 test('adding should should detect odd number--', () => {
     const number = Math.floor(Math.random() * 10);
-    const result = number % 2;
+    const result = 10 % 2;
     expect(result).toBe(1);
 });
 
 test('new added', () => {
-    const result = 11 % 2;
+    const result = 10 % 2;
     expect(result).toBe(1);
 });
 
