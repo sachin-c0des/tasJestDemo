@@ -15,6 +15,7 @@ function getAboutUsLink(language) {
       return '/o nás';
   }
   return '';
+  
 }
 
 module.exports = getAboutUsLink;
