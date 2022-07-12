@@ -1,8 +1,5 @@
 const getAboutUsLink = require("./calculator");
 
-test("Retuns about-us for english language", () => {
-    expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
-});
 
 test("Returns about-us for spanish language", () => {
     expect(getAboutUsLink(process.env.GLOAR_VARIABLE)).toBe("/acerca-de");
@@ -34,13 +31,10 @@ test("nmew test", () => {
     expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
 
-test("Added by arjun", () => {
-    expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
-});
 
 test('adding should should detect odd number--', () => {
     const number = Math.floor(Math.random() * 10);
-    const result = 11 % 2;
+    const result = number % 2;
     expect(result).toBe(1);
 });
 
