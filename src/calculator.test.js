@@ -10,14 +10,15 @@ test.skip("Skip a test", () => {
     (getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
 
+
 // test("Fail a test -1", () => {
 //     expect(getAboutUsLink("es-ES")).toBe("");
 // });
 
 
-// test("Blacklist a tesst", () => {
-//     expect(getAboutUsLink("es-ES")).toBe("");
-// });
+test("Blacklist a tesst", () => {
+    expect(getAboutUsLink("es-ES")).toBe("");
+});
 
 // test("Fail a test -2", () => {
 //     expect(getAboutUsLink("es-ES")).toBe("");
