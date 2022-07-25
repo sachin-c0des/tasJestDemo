@@ -34,11 +34,11 @@ describe('Test Language code_Expanded name to check for test suite_expand', func
         expect(getAboutUsLink("cs")).toBe("/o nás");
     });
     
-    it('should should detect odd number--test suite', () => {
-       const number = Math.floor(Math.random() * 10);
-       const result = number % 2;
-       expect(result).toBe(0);
-    });
+//     it('should should detect odd number--test suite', () => {
+//        const number = Math.floor(Math.random() * 10);
+//        const result = number % 2;
+//        expect(result).toBe(0);
+//     });
 });
 
 describe('By arjun-rathi suitwe', function () {
