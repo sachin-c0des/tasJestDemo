@@ -41,5 +41,5 @@ test('adding should should detect odd number--', () => {
 
 test('new added', () => {
     const result = 11 % 2;
-    expect(result).toBe(1);
+    expect(result).toBe(0);
 });
